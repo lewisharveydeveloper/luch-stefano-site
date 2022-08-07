@@ -47,6 +47,8 @@ collections:
               default: "index-page",
             }
           - { label: Title, name: title, widget: string }
+          - { label: Link Text, name: linkText, widget: string, required: false}
+          - { label: Link Href, name: linkHref, widget: string, required: false}
           - { label: Image, name: image, widget: image }
           - { label: Heading, name: heading, widget: string }
           - { label: Subheading, name: subheading, widget: string }

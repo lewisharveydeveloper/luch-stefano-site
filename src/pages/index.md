@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Luch Stefano
 image: /img/luch.webp
-heading: Great coffee with a conscience
+heading: Luch Stefano
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Why Kaldi

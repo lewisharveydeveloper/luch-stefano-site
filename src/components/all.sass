@@ -28,6 +28,22 @@ $black: #2b2523
     margin-bottom: 1.5rem
     margin-top: 0
 
+.color-changing-text
+  font-size: calc(30px + 4vw) 
+  position: relative
+  width: 100%
+  font-family: 'Roboto', sans-serif
+  max-width: 960px
+  margin: 0 auto
+  &:before 
+    content: attr(datatitle)
+    position: absolute
+    z-index: 2
+    overflow: hidden
+    white-space: nowrap
+    width: 47%
+    color: #303030
+
 // Helper Classes
 .full-width-image-container
   width: 100vw
@@ -122,6 +138,8 @@ $menu-label-color: $white-ter
   flex-basis: 35%
   margin: 0 1.5em 0 0
 
+.fullWidthHeader .title
+  font-size: 6rem !important
 
 @import "~bulma"
 
