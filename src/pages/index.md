@@ -1,6 +1,8 @@
 ---
 templateKey: index-page
 title: Great coffee with a conscience
+linkText: test
+linkHref: test
 image: /img/luch.webp
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
