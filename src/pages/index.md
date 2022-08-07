@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
 title: Great coffee with a conscience
-linkText: test
-linkHref: test
+linkText: STREAM/DOWNLOAD
+linkHref: http://www.linktr.ee/luchstefano
 image: /img/luch.webp
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
