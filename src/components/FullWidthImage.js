@@ -4,7 +4,7 @@ import { GatsbyImage } from "gatsby-plugin-image";
 
 export default function FullWidthImage(props) {
   const {
-    height = 400,
+    height = 700,
     img,
     title,
     subheading,
@@ -14,10 +14,11 @@ export default function FullWidthImage(props) {
   return (
     <React.Fragment>
       <div
-        className="margin-top-0"
         style={{
           display: "grid",
+          gridTemplateColumns: "repeat(5, 1fr)",
           alignItems: "center",
+          margin: "100px 10%",
         }}
       >
         {img?.url ? (
@@ -26,7 +27,8 @@ export default function FullWidthImage(props) {
             objectFit={"cover"}
             objectPosition={imgPosition}
             style={{
-              gridArea: "1/1",
+              gridRow: "1/1",
+              gridColumn: "2/-1",
               // You can set a maximum height for the image, if you wish.
               height: height,
               width: "100%",
@@ -43,7 +45,8 @@ export default function FullWidthImage(props) {
             objectFit={"cover"}
             objectPosition={imgPosition}
             style={{
-              gridArea: "1/1",
+              gridRow: "1/1",
+              gridColumn: "2/-1",
               // You can set a maximum height for the image, if you wish.
               maxHeight: height,
             }}
@@ -59,7 +62,8 @@ export default function FullWidthImage(props) {
           <div
             style={{
               // By using the same grid area for both, they are stacked on top of each other
-              gridArea: "1/1",
+              gridRow: "1/1",
+              gridColumn: "1/3",
               position: "relative",
               // This centers the other elements inside the hero component
               placeItems: "center",
