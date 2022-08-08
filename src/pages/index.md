@@ -1,11 +1,11 @@
 ---
 templateKey: index-page
 title: Luch Stefano
+linkText: STREAM/DOWNLOAD
+linkHref: http://www.linktr.ee/luchstefano
 image: /img/luch.webp
 heading: Luch Stefano
-subheading: Support sustainable farming while enjoying a cup
-linkText: Testing
-linkHref: Testinglink
+subheading: Luch Stefano
 mainpitch:
   title: Why Kaldi
   description: >
