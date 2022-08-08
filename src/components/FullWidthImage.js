@@ -9,6 +9,8 @@ export default function FullWidthImage(props) {
     title,
     subheading,
     imgPosition = "top left",
+    linkText,
+    linkHref
   } = props;
 
   return (
@@ -87,6 +89,21 @@ export default function FullWidthImage(props) {
               >
                 {title}
               </h1>
+            )}
+            {linkText && linkHref && (
+              <span
+                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-2-widescreen"
+                style={{
+                  backgroundColor: "black",
+                  color: "white",
+                  lineHeight: "1",
+                  padding: "0.25em",
+                  fontFamily: "poppins-semibold,poppins,sans-serif",
+                  textTransform: "uppercase",
+                }}
+              >
+                <a href={linkHref}>{linkText}</a>
+              </span>
             )}
           </div>
         )}

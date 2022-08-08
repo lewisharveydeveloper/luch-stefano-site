@@ -4,6 +4,8 @@ title: Luch Stefano
 image: /img/luch.webp
 heading: Luch Stefano
 subheading: Support sustainable farming while enjoying a cup
+linkText: Testing
+linkHref: Testinglink
 mainpitch:
   title: Why Kaldi
   description: >
